@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='container'>
         <h1 className='sec-title'><span className='title-span'>&#x2699; Projects</span></h1>
         <h2>Hope In A Box | Backend Lead 
-            <ExternalLink href="https://youtu.be/EBvSKi303JI">
+            <ExternalLink href="https://youtu.be/EBvSKi303JI" className='youtube'>
                 <FontAwesomeIcon icon={faYoutube} className='youtube'></FontAwesomeIcon>
             </ExternalLink>
         </h2>
@@ -18,6 +18,7 @@ export default function Projects() {
         <p className='text'>An app that allows users to buy and send care packages around the world to people in countries
         with extreme political, social, or environmental circumstances.</p>
         <table className='tech'>
+            <tbody>
             <tr>
                 <td className='text'>
                     &#x2022; Established user-authenticated login using <span className='tech-label'>MySQL2 </span>
@@ -40,10 +41,11 @@ export default function Projects() {
                     &#x2022; Deployed using <span className='tech-label'>Heroku</span> and <span className='tech-label'>ClearDB </span>
                 </td>
             </tr>
+            </tbody>
         </table>
 
         <span className='divider'>
-            &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;
+            &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;
         </span>
         <span className='mobile-divider'>
         &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;
@@ -54,6 +56,7 @@ export default function Projects() {
             activity suggestions
         </p>
         <table className='tech'>
+            <tbody>
             <tr>
                 <td className='text'>
                     &#x2022; Utilized <span className='tech-label'>Firebase </span> for deployment
@@ -71,6 +74,7 @@ export default function Projects() {
                     &#x2022; Cultivated using an <span className='tech-label'>Agile </span> workflow
                 </td>
             </tr>
+            </tbody>
         </table>
         </div>
     </>

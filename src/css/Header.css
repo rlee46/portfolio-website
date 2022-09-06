@@ -13,14 +13,15 @@
 
 .bitmoji {
     grid-area: bitmoji;
-    height: 50%;
+    height: 100%;
     margin: auto;
+    padding-top: 1.25rem;
 }
 
 .logos, .logos-mobile {
     grid-area: logos;
     height: 10vh;
-    margin-top: 5%;
+    margin-top: 8%;
     overflow: hidden;
 }
 
@@ -29,7 +30,7 @@
     margin: auto;
     padding-top: 1rem;
     font-weight: 800;
-    font-size: 70px;
+    font-size: 3rem;
     margin-bottom: 3%;
 }
 
@@ -38,8 +39,9 @@
     position: absolute;
     left: 50%;
     font-weight: 600;
-    padding-left: 20px;
-    margin-top: 30%;
+    padding-left: 30px;
+    margin-top: 20%;
+    font-size: 2rem;
 }
 
 *,
@@ -56,12 +58,12 @@
 .wrapper{
     grid-area: bank;
     box-sizing: content-box;
-    height: 70px;
+    height: 2rem;
     display: flex;
     position: absolute;
     right: 48%;
-    margin-top: 30%;
-    padding-right: 20px;
+    margin-top: 20%;
+    padding-right: 40px;
     
 }
 .words{
@@ -69,12 +71,12 @@
 }
 .word-bank {
     display: block;
-    height: 100%;
     padding-left: 10px;
     color: #06d6a0;
     animation: spin_words 2s infinite;
     font-weight: 600;
     padding-right: 20px;
+    font-size: 2rem;
 }
 
 .back {
@@ -95,6 +97,10 @@
 .logos-mobile {
     visibility: hidden;
 }
+
+.logos td *{
+    height: 1.5rem;
+}
 @keyframes spin_words{
     15%{
         transform: translateY(-110%);
@@ -111,9 +117,17 @@
     
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
     .wrapper, .developer {
-        margin-top: 90%;
+        padding-top: 8rem;
+    }
+
+    .wrapper {
+        padding-right: 0;
+    }
+
+    .developer {
+        padding-left: 0;
     }
 
     .logos {
@@ -134,5 +148,18 @@
         display: table;
         margin: 0 auto;
         
+    }
+
+    .developer, .word-bank {
+        font-size: 40px;
+    }
+
+    .bitmoji {
+        height: 60%;
+        padding-top: 0.25rem;
+    }
+
+    .name {
+        font-size: 80px;
     }
 }

@@ -21,6 +21,7 @@ export default function Header() {
         </div>
         <div className='logos'>
           <table className='row-1'>
+            <tbody>
             <tr>
               <td className='first-icon'>
               <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
@@ -47,10 +48,12 @@ export default function Header() {
               <FontAwesomeIcon icon={faJava}></FontAwesomeIcon>
               </td>
             </tr>
+            </tbody>
           </table>
         </div>
         <div className='logos-mobile'>
           <table className='row-2'>
+            <tbody>
             <tr>
               <td className='first-icon'>
               <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
@@ -79,6 +82,7 @@ export default function Header() {
               <FontAwesomeIcon icon={faJava}></FontAwesomeIcon>
               </td>
             </tr>
+            </tbody>
           </table>
         </div>
       </div>

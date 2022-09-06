@@ -7,6 +7,7 @@
     "projects"
     "profile";
     height: 100%;
+    margin: auto;
 }
   
 .header {
@@ -23,4 +24,10 @@
   
 .profile {
     grid-area: profile;
+}
+
+@media only screen and (max-width: 375px) {
+    .home-container {
+        width: 100%;
+    }
 }

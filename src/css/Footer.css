@@ -1,10 +1,11 @@
 .footer-container {
     margin-top: 5%;
     background: linear-gradient(#eff7f6, #b7efc5);
+    width: 100%;
 }
 
 .footer-text {
-    font-size: 20px;
+    font-size: 40px;
     margin: 0 auto;
     text-align: center;
 }
@@ -13,15 +14,19 @@
     display: table;
     margin: 0 auto;
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 2rem;
     width: 100%;
 }
 
-.footer-table td {
+.footer-table-mobile {
+    display: none;
+}
+
+.footer-table td, .footer-table-mobile td {
     text-align: center;
     width: 20%;
     margin: 0;
-    padding: 0;
+    padding-bottom: 2rem;
 }
 
 .LinkedIn, .GitHub {
@@ -36,10 +41,10 @@ a:link, a:visited, a:active {
 
 .footer-icon {
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 40px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
     .footer-text {
         font-size: 14px;
         margin: 0 auto;
@@ -47,11 +52,25 @@ a:link, a:visited, a:active {
     }
     
     .footer-icon {
-        padding-left: 10px;
+        padding-left: 20px;
         font-size: 13px;
     }
 
-    .footer-table {
+    .footer-table-mobile {
+        display: table;
         padding-right: 10px;
+        padding-bottom: 0.5rem;
+    }
+
+    .footer-table {
+        display: none;
+    }
+
+    .footer-table td, .footer-table-mobile td {
+        padding-bottom: 0;
+    }
+
+    .footer-table td *, .footer-table-mobile td *{
+        padding: 0;
     }
 }
