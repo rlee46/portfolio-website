@@ -1,0 +1,60 @@
+.tech {
+    padding-left: 30px;
+    padding-bottom: 0.5rem;
+}
+
+.tech-label {
+    font-size: 20px;
+    font-weight: 100;
+    color: #06d6a0;
+    font-weight: 600;
+}
+
+.divider {
+    display: table;
+    margin: 0 auto;
+    color: black;
+}
+
+.youtube {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.mobile-divider {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+    p {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+    .tech {
+        padding-left: 0px;
+    }
+
+    .text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .text, .tech-label {
+        font-size: 15px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .mobile-divider {
+        display: table;
+        margin: auto;
+    }
+}

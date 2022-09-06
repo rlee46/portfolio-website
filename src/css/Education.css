@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oxygen:wght@300&display=swap');
+* {
+    font-family: 'Abel', sans-serif;
+    overflow-x:hidden;
+}
+
+.container {
+    box-shadow: 0 8px 20px -2px rgba(0,0,0,0.2);
+    width: 90%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 5%;
+    overflow-x: hidden;
+}
+
+.sec-title {
+    margin: auto;
+    width: 50%;
+    font-weight: 700;
+    margin: auto;
+    color: #248277;
+}
+
+.title-span {
+    display: table;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.graduate, .text {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 70px;
+}
+
+.edu-div {
+    padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .sec-title {
+        width: 100%;
+    }
+
+    .title-span {
+        font-size: 35px;
+
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    .graduate {
+        padding-left: 30px;
+    }
+}

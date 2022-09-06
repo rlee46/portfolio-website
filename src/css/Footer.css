@@ -1,0 +1,57 @@
+.footer-container {
+    margin-top: 5%;
+    background: linear-gradient(#eff7f6, #b7efc5);
+}
+
+.footer-text {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-table {
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.footer-table td {
+    text-align: center;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.LinkedIn, .GitHub {
+    text-decoration: none;
+    color: black;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-icon {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-text {
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .footer-icon {
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    .footer-table {
+        padding-right: 10px;
+    }
+}
