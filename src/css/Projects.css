@@ -1,10 +1,10 @@
 .tech {
     padding-left: 30px;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .tech-label {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 100;
     color: #06d6a0;
     font-weight: 600;
@@ -17,7 +17,7 @@
 }
 
 .youtube {
-    font-size: 60px;
+    font-size: 40px;
     padding-left: 10px;
 }
 
@@ -29,7 +29,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 720px) {
 
     p {
         padding-left: 0px;

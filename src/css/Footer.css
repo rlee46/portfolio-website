@@ -5,7 +5,7 @@
 }
 
 .footer-text {
-    font-size: 40px;
+    font-size: 20px;
     margin: 0 auto;
     text-align: center;
 }
@@ -14,7 +14,7 @@
     display: table;
     margin: 0 auto;
     padding-bottom: 40px;
-    padding-top: 2rem;
+    padding-top: 40px;
     width: 100%;
 }
 
@@ -26,7 +26,7 @@
     text-align: center;
     width: 20%;
     margin: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 20px;
 }
 
 .LinkedIn, .GitHub {
@@ -41,10 +41,10 @@ a:link, a:visited, a:active {
 
 .footer-icon {
     padding-left: 10px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 700px) {
     .footer-text {
         font-size: 14px;
         margin: 0 auto;
@@ -68,9 +68,10 @@ a:link, a:visited, a:active {
 
     .footer-table td, .footer-table-mobile td {
         padding-bottom: 0;
+        padding-top: 0;
     }
 
     .footer-table td *, .footer-table-mobile td *{
-        padding: 0;
+        padding: 0px;
     }
 }
