@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rlee46/portfolio-website/static/css/main.3e6a4345.css",
+    "main.js": "/rlee46/portfolio-website/static/js/main.f7c64fa1.js",
+    "static/media/bitmoji.png": "/rlee46/portfolio-website/static/media/bitmoji.7e6291a652d484d55dff.png",
+    "index.html": "/rlee46/portfolio-website/index.html",
+    "main.3e6a4345.css.map": "/rlee46/portfolio-website/static/css/main.3e6a4345.css.map",
+    "main.f7c64fa1.js.map": "/rlee46/portfolio-website/static/js/main.f7c64fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e6a4345.css",
+    "static/js/main.f7c64fa1.js"
+  ]
+}
