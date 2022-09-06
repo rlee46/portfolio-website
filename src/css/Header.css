@@ -73,10 +73,11 @@
     display: block;
     padding-left: 10px;
     color: #06d6a0;
-    animation: spin_words 2s infinite;
+    animation: spin_words 2.5s infinite;
     font-weight: 600;
     padding-right: 15px;
     font-size: 70px;
+    height: 140%;
 }
 
 .back {
