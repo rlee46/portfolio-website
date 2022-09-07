@@ -52,13 +52,13 @@ export default function Footer() {
         <table className='footer-table-mobile'>
             <tbody>
             <tr>
-                <td className='text'>
+                <td className='text-left'>
                     <ExternalLink href="https://www.linkedin.com/in/ryan-alex-lee" className='LinkedIn'>
                         <span className='footer-text'>LinkedIn  </span>
                         <FontAwesomeIcon icon={faLinkedin} className='footer-icon'></FontAwesomeIcon>
                     </ExternalLink>
                 </td>
-                <td className='text'>
+                <td className='text-right'>
                 <a target="_top" href="mailto:rlee345@my.bcit.ca">
                     <span className='footer-text'>rlee345@my.bcit.ca  </span>
                     <FontAwesomeIcon icon={faEnvelope} className='footer-icon'></FontAwesomeIcon>
@@ -66,13 +66,13 @@ export default function Footer() {
                 </td>
             </tr>
             <tr>
-                <td className='text'>
+                <td className='text-left'>
                     <ExternalLink href="https://github.com/rlee46" className='GitHub'>
                         <span className='footer-text'>GitHub  </span>
                         <FontAwesomeIcon icon={faGithub} className='footer-icon'></FontAwesomeIcon>
                     </ExternalLink>
                 </td>
-                <td className='text'>
+                <td className='text-right'>
                     <a target="_top" href="mailto:ryanalexlee1211@gmail.com">
                         <span className='footer-text'>ryanalexlee1211@gmail.com  </span>
                         <FontAwesomeIcon icon={faEnvelope} className='footer-icon'></FontAwesomeIcon>
@@ -81,7 +81,7 @@ export default function Footer() {
             </tr>
             <tr>
                 <td></td>
-                <td className='text'>
+                <td className='text-right'>
                     <a href="tel:778-881-7926">
                         <span className='footer-text'>(778) - 881 - 7926  </span>
                         <FontAwesomeIcon icon={faPhone} className='footer-icon'></FontAwesomeIcon>

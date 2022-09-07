@@ -44,8 +44,32 @@ a:link, a:visited, a:active {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1605px) and (min-width: 721px) {
+    .footer-table td {
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer-table-mobile, .footer-table {
+        padding-left: 0px;
+    }
+
+    .text a {
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+        padding-right: 80px;
+    }
+
     .footer-text {
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-text, .footer-text-left {
         font-size: 14px;
         margin: 0 auto;
         text-align: center;
@@ -73,5 +97,35 @@ a:link, a:visited, a:active {
 
     .footer-table td *, .footer-table-mobile td *{
         padding: 0px;
+    }
+
+    .footer-table-mobile td{
+        text-align: left;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .footer-table-mobile {
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 368px) {
+    .footer-text {
+        font-size: 13px;
+    }
+
+    .footer-table-mobile td{
+        text-align: left;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .footer-table-mobile {
+        padding-left: 45px;
     }
 }
